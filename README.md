@@ -35,7 +35,7 @@ folders, directories, you name it. Quickly, & efficiently.
 
 ## Screenshots
 
-This is the command line(CLI) interface.
+This is the command line(CLI) interface for Facesift. Its meant to be easy, & minimal.
 
 ![Facesift_CLI](https://i.imgur.com/uM3JyJO.png)
 
