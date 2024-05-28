@@ -32,6 +32,7 @@ folders, directories, you name it. Quickly, & efficiently.
 - [ ] Add multiprocessing optionally.
 - [x] Add pre-compiled Linux, & Windows binaries.
 - [ ] Add demo video.
+- [ ] Add a UI interface optionally.
 
 ## Screenshots
 
