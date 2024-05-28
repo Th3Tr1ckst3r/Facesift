@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/m9cOCGs.png" alt="Facesift Logo" width="300">
+  <img src="https://i.imgur.com/YCWFdAH.png" alt="Facesift Logo" width="300">
 </p>
 
 # Facesift
