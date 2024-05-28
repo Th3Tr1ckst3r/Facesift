@@ -138,8 +138,8 @@ def main():
     known_image_encoding = None
     parser = argparse.ArgumentParser(prog='facesift.py',
                                      description="Facesift V1.0 - A lightweight, cross-platform, & accurate Python3 image sorter with facial recognition capabilities.", epilog='For more help, please visit:  https://github.com/Th3Tr1ckst3r/Facesift')
-    parser.add_argument('--input_image', type=str, default=None, help='Input image for Facesift to use for the purpose of either matching, or differentiating.')
-    parser.add_argument('--input_dir', type=str, default=None, help='Input directory for Facesift to parse through.')
+    parser.add_argument('--input_image', type=str, default=None, required=True, help='Input image for Facesift to use for the purpose of either matching, or differentiating.')
+    parser.add_argument('--input_dir', type=str, default=None,  required=True, help='Input directory for Facesift to parse through.')
     parser.add_argument('--output_dir', type=str, default=None, help='Output directory to place matching, or differentiating images into.')
     parser.add_argument('--match_face', action='store_true', default=False, help='Enables face matching using an input image.')
     parser.add_argument('--diff_face', action='store_true', default=False, help='Enables differentiating face matching using an input image.')
