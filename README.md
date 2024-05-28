@@ -16,8 +16,8 @@ A lightweight, cross-platform, & accurate Python3 image sorter with facial recog
 ## Why Use Facesift?
 
 Facesift comes in handy for a variety of reasons. Wether your doing digital forensics, or just backing up only
-important images off of your phone. It allows you to take a single image, & perform scans on files, folders,
-directories, you name it.
+important images off of your phone. It allows you to take a single image, & perform facial recognition scans on files,
+folders, directories, you name it. Quickly, & efficiently.
 
 ## Features
 
@@ -26,6 +26,12 @@ directories, you name it.
 - Automatically verifies image data with Magic.
 - Automatically, & efficiently use facial recognition [face_recognition](https://pypi.org/project/face-recognition/) library.
 - Automatic face detection works efficiently, even when sampling against a group photo.
+
+## To-Do
+
+- [ ] Add multiprocessing.
+- [ ] Add pre-compiled Linux, & Windows binaries.
+- [ ] Add demo video.
 
 ## Screenshots
 
