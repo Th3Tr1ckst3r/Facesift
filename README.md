@@ -29,7 +29,7 @@ folders, directories, you name it. Quickly, & efficiently.
 
 ## To-Do
 
-- [ ] Add multiprocessing.
+- [ ] Add multiprocessing optionally.
 - [ ] Add pre-compiled Linux, & Windows binaries.
 - [ ] Add demo video.
 
