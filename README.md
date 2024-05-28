@@ -47,7 +47,8 @@ you can follow the steps below. Alternatively, I'll also be releasing binaries f
 ## Required Libraries
 
 To use Facesift, the following Python3 libraries will need to be installed. You can install them using the Python package manager `pip`.
-Below are the installation instructions for each library:
+Facesift utilizes the latest Python 3.11 so compatibility wont be an issue. Below are the installation
+instructions for each library:
 
 ```bash
 # Face Recognition (face_recognition)
