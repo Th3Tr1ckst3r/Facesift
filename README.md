@@ -9,8 +9,6 @@
 [![GitHub Forks](https://img.shields.io/github/forks/Th3Tr1ckst3r/Facesift)](https://github.com/Th3Tr1ckst3r/Facesift/network/members)
 [![GitHub Issues](https://img.shields.io/github/issues/Th3Tr1ckst3r/Facesift)](https://github.com/Th3Tr1ckst3r/Facesift/issues)
 
-
-
 ## About
 
 A lightweight, cross-platform, & accurate Python3 image sorter with facial recognition capabilities.
@@ -33,69 +31,31 @@ directories, you name it.
 
 This is the command line(CLI) interface.
 
-![GReverse_CLI](https://i.imgur.com/2gvqRJs.png)
-
-Demonstration of Facesift.
-
-![Facial_Recognition_Demo](https://i.imgur.com/Ho3Fxan.png)
+![Facesift_CLI](https://i.imgur.com/uM3JyJO.png)
 
 ## Installation Notice
 
-Facesift uses Python3 natively, so you will need to have it installed before proceeding. Once you have done that follow
-the steps below.
+Facesift uses Python3 natively, so you will need to have it installed before proceeding. Once you have done that
+you can follow the steps below. Alternatively, I'll also be releasing binaries for Linux, & hopefully Window.
 
-## Required Libraries Install Guide
+## Required Libraries
 
 To use Facesift, the following Python3 libraries will need to be installed. You can install them using the Python package manager `pip`.
 Below are the installation instructions for each library:
 
-1. **Google API Client Library (googleapiclient)**
+```bash
+# Face Recognition (face_recognition)
+pip install face_recognition
 
-    You can install the Google API Client Library using `pip`:
-    
-    ```bash
-    pip install google-api-python-client
-    ```
+# Python-Magic (magic)
+pip install python-magic
 
-2. **Google Cloud Vision (google-cloud-vision)**
+# Argparse (argparse)
+pip install argparse
 
-    Install the Google Cloud Vision client library using `pip`:
-    
-    ```bash
-    pip install google-cloud-vision
-    ```
-
-3. **Protocol Buffers (google.protobuf)**
-
-    You can install the Protocol Buffers library using `pip`:
-    
-    ```bash
-    pip install protobuf
-    ```
-
-4. **Face Recognition (face_recognition)**
-
-    Install the Face Recognition library using `pip`:
-    
-    ```bash
-    pip install face_recognition
-    ```
-
-5. **TQDM (tqdm)**
-
-    You can install the TQDM library using `pip`:
-    
-    ```bash
-    pip install tqdm
-    ```
-
-6. **Dict2XML (dict2xml)**
-
-    Install the Dict2XML library using `pip`:
-    
-    ```bash
-    pip install dict2xml
-    ```
+# Pillow (PIL)
+pip install Pillow
+```
 
 With these libraries installed, you can proceed.
 
