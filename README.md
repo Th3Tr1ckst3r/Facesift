@@ -11,7 +11,7 @@
 
 ## About
 
-A lightweight, cross-platform, & accurate Python3 image sorter with facial recognition capabilities.
+A lightweight, cross-platform, & accurate image sorter with facial recognition capabilities.
 
 ## Why Use Facesift?
 
